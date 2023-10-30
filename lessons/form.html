@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="GET" enctype="multipart/form-data">
+        <p>
+            <label for="">Enter u name:</label>
+            <input type="text" name="name" id="">
+        </p>
+        <p>
+            <label for="">Enter u pass:</label>
+            <input type="password" name="password" id="">
+        </p>
+        <p>
+            <label for="">Upload file:</label>
+            <input type="file" name="file" id="" multiple>
+        </p>
+        <p>
+            <label for="">U favorite country</label>
+            <input type="text" name="country" id="" list="country">
+            <datalist id="country">
+                <option value="">Kuba</option>
+                <option value="">Belarus</option>
+                <option value="">Canada</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="">Enter number</label>
+            <input type="number">
+        </p>
+        <p>
+            <label for="">Enter number</label>
+            <input type="range" min="0" max="100" step="1">
+        </p>
+        <p>
+            <label for="">Enter number</label>
+            <input type="date">
+        </p>
+        <p>
+            <label for="">Enter number</label>
+            <input type="color">
+        </p>
+         <p height="200px">
+            <select name="hui" id="">
+                <optgroup label="Cars">
+                    <option value="">
+                        Aston Martin
+                    </option>
+                    <option value="">
+                        Toyota
+                    </option>
+                    <option value="">Mazda</option>
+                </optgroup>
+                <optgroup label="Countries">
+                    <option value="">USA</option>
+                    <option value="">Jap</option>
+                    <option value="">Jap</option>
+                </optgroup>
+            </select>
+        </p>
+    </form>
+</body>
+</html>
